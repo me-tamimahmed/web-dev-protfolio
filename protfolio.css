@@ -12,6 +12,9 @@
 .text-primary{
     color: #FD6E0A;
 }
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 
 /* nav-styles */
 nav{
@@ -31,6 +34,15 @@ nav{
     border-radius: 5px;
     font-size: 20px;
     border: none;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
 }
 
 /* Header */
@@ -80,4 +92,26 @@ nav ul{
     max-width: 580px;
     
 }
+
+/* main style */
     
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about style */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.abot-items{
+    display: flex;
+    justify-content: space-around; 
+    /* It is very important css tag to devide some little div (Mil-01,M-5-5)*/
+}
+.item-description{
+    font-weight: 600;
+}
