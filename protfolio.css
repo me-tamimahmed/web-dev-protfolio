@@ -33,6 +33,12 @@ nav{
     border: none;
 }
 
+/* Header */
+.header{
+    background-image: url(images/developer.png),url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 
 .nav-title{
     font-weight: 800;
@@ -49,5 +55,29 @@ nav li a{
 nav ul{
     display: flex;
     align-items: center;
+}
+
+/* banner style */
+
+.banner{
+    display: flex;
+    justify-content:space-between ;
+    margin: 0 35px 0 200px;
+
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-profole-image{
+    width: 580px;
+}
+.banner-content{
+    max-width: 580px;
+    
 }
     
